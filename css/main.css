@@ -1,0 +1,594 @@
+body{
+    background: rgb(241, 241, 241);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-0{
+    width: 1920px;
+    margin: auto;
+}
+.container-top{
+    background: none;
+    width: 85%;
+    margin: auto;
+    padding:0 20px 20px 20px;
+}
+.img-width{
+    width: 100%;
+}
+.heading .img-widt{
+    border-radius: 0 0 14px 14px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    padding-left: 30px;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+.body-1{
+    background-image: url(./img/background-body1.jpg);
+}
+.info div img{
+    border-right: 2px solid rgb(99, 99, 99);
+    border-bottom: 2px solid rgb(99, 99, 99);
+    width: 100%;
+    margin-top: 5px ;
+    margin-bottom: 20px;
+}
+.tag-name{
+    margin-top: 6%;
+    margin-left: 30px;
+}
+.tag-name h1{
+    margin-bottom: 2px;
+}
+.tag-name span{
+    opacity: 50%;
+}
+.bar{
+    margin-top: 20px;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.pagination div a{
+    border: 1px solid rgb(133, 133, 133);
+
+}
+.btn-folow{
+    background: rgb(101, 159, 207);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.btn-folow:hover{
+    background: rgb(82, 177, 255);
+    transform: scale(1.1);
+}
+
+.contenblock p .fa a{
+    text-decoration: none;
+}
+.btn-message{
+    margin-left: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.btn-message:hover{
+    background: rgb(216, 216, 216);
+    transform: scale(1.1);
+}
+.pagination ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.pagination ul li a{
+    text-decoration: none;
+    color: black;
+}
+.pagination ul li:hover{
+    background: rgb(241, 241, 241);
+    opacity: .9;
+    transform: scale(1.2);
+}
+.select{
+    border-bottom: 3px solid red;
+}
+
+.container-botton{
+    background: rgb(241, 241, 241);
+    width: 70%;
+    margin: auto;
+    padding:20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+.row{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 10px 0 10px 30px;
+    margin: 20px 0;
+}
+.row-1 a img:hover{
+    opacity: .9;
+    transform: scale(1.05);
+    border: 1px solid white;
+}
+.facebook{
+    text-decoration: none;
+    color: black;
+}
+.img-album{
+    width: 29%;
+}
+span a{
+    opacity: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+.up-status{
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.up-status .img-text{
+    display: flex;
+    align-items: center;
+}
+
+.up-status .img-text input{
+    height: 40px;
+    width: 700px;
+    border: none;
+    background: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+/*form nhập bài viết*/
+#window{
+    position: absolute;
+    width: 400%;
+    height: 1920px;
+    background: rgba(241, 241, 241, 0.8);
+    top: 0;
+    left: 0;
+}
+.window-back{
+    display: none;
+}
+.container-window{
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    top:210px;
+    left: 650px;
+    opacity: 800%;
+    box-shadow: 2px 2px 30px rgb(109, 109, 109);
+}
+.container-window-1{
+    display: flex;
+    align-items: center;
+    margin-left: 260px;
+}
+.container-window-1 img{
+    margin-left: 260px;
+}
+.window-input{
+    border-radius: none;
+    background: none;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.window-input input{
+    padding-left: 20px;
+    width: 600px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    padding-bottom: 230px;
+}
+
+.container-window a button{
+    width: 600px;
+    margin-left: 55px;
+    padding: 8px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    background: #1877f2;
+    color: rgb(235, 235, 235);
+    font-size: 17px;
+}
+
+.icon-out{
+    width: 25px;
+    color: black;
+    background: rgb(158, 158, 158);
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.post{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-bottom: 1px;
+}
+.img-post{
+    width: 50px;
+}
+.img-width:hover{
+    transform: scale(1.01);
+}
+.avt-post{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.user-post{
+    margin-left: 7px;
+}
+.row-post{
+    display: flex;
+}
+.row-post h4{
+    margin-bottom: 3px;
+    margin-top: 30px;
+}
+.row-post div span{
+    opacity: 70%;
+}
+.describe{
+    margin: 30px;
+}
+.describe p{
+    max-width: 100%;
+}
+.block{
+    display: none;
+}
+.stt{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.stt .stt-icon{
+    display: flex;
+    justify-content: center;
+}
+.stt span{
+    margin-left: 7px;
+}
+.img-icon{
+    width: 40px;
+}
+.stt{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin-top: 0px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.status button{
+    background: none;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+.status button i a{
+    text-decoration: none;
+    color: black;
+}
+.status button:hover{
+    background: rgb(228, 228, 228);
+}
+.body-review-2{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2px;
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+.body-review-2 .body2-left{
+    padding: 0 20px;
+    padding-bottom: 20px;
+    background: white;
+    border-radius: 10px 0 0 10px;
+}
+
+.body-review-2 .body2-left div hr{
+    height: 100%;
+}
+.body-review-2 .body2-left div p{
+    margin: 0;
+    border-radius: 10px;
+    padding: 10px 0 10px 9px;
+    width: 300px;
+}
+.body-review-2 .body2-left div p:hover{
+    background: rgba(241, 241, 241, 1);
+}
+.body2-left div p a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.body-review-2 .body2-right{
+    padding: 20px 20px;
+    background: white;
+    border-radius: 0 10px 10px 0;
+}
+.body-review-2 .body2-right div p {
+    font-size: 20px;
+    opacity: 80%;
+    margin: 30px 0 30px 30px;
+}
+.body-review-2 .body2-right div{
+    padding-left: 30px;
+}
+.review-bodyleft{
+    background-color: rgb(201, 230, 241);
+}
+
+.contenblock{
+    display: none;
+}
+
+/* css album*/
+.container-album{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding:10px 30px;
+}
+.album-nav ul li{
+    display: inline-block;
+}
+.album-nav ul li{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+.album-nav ul li a{
+    margin-top: 12px;
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.album-nav ul li:hover{
+    background: rgb(241, 241, 241);
+    transform: scale(1.06);
+}
+.album-select{
+    border-bottom: 3px solid rgb(40, 0, 185);
+}
+.album-img-post{
+    width: 14%;
+    border-radius: 10px;
+}
+.album-img-post:hover{
+    transform: scale(1.03);
+}
+
+/*Form messager*/
+.message{
+    position: fixed;
+    right: 2%;
+    bottom: 0%;
+    background: white;
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 10px rgb(156, 156, 156);
+    border-radius: 5px 5px 0 0;
+}
+.user-post-message{
+    margin-top:9px;
+    margin-left: 5px;
+}
+.img-post-message{
+    width: 37px;
+}
+.message-avt{
+    margin-top: -18px;
+    margin-left: -10px;
+}
+.message hr{
+    width: 99%;
+    opacity: 50%;
+    margin-top: 5px;
+}
+.online-stt{
+    position: absolute;
+    width: 15px;
+    top: 32px;
+    left: 44px;
+}
+.message-right{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(194, 194, 194);
+    padding-right: 17px;
+    padding-top: 4px;
+
+}
+.message-right i{
+    margin-left: 20px;
+}
+.message-right a{
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: rgb(172, 172, 172);
+
+}
+.message-right a:hover{
+    transform: scale(1.3);
+}
+.message-header{
+    display: flex;
+    justify-content: space-between;
+}
+.message-info{
+    margin: 4px 0 0 110px;
+    font-size: 22px;
+}
+.avt-message-info{
+    width: 70px;
+}
+.avt-message{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.user-message{
+    margin-top: -20px;
+    margin-left: 17px;
+}
+.online-message-info{
+    position: absolute;
+    width: 30px;
+    top: 128px;
+    left: 184px;
+}
+.message-info p{
+    font-size: 13px;
+    padding-left: 8px;
+}
+.info1{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.info2{
+    margin-top: -10px;
+}
+.message-input{
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+.message-input i{
+    font-size: 22px;
+    opacity: 80%;
+}
+.fa-frown-o{
+    position: absolute;
+    bottom: 10px;
+    right: 45px;
+}
+.message-input input{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 8px 9px;
+    border-radius: 14px;
+}
+.message-display{
+    display: none;
+}
+#icon-down{
+    cursor: pointer;
+}
+#icon-down:hover{
+    transform: scale(1.4);
+}
+
+/*footer*/
+.footer{
+    background: url('./img/footer.jpg');
+    height: 164px;
+}
+.wrapper{
+    padding-top: 50px;
+    padding-left: 45%;
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    overflow: hidden;
+    margin: 0 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+}
+.wrapper .button .icon a{
+    color: black;
+}
+.wrapper .button .icon a i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.icon-message-output{
+    position: fixed;
+    width: 70px;
+    right: 175px;
+    bottom: 300px;
+    visibility: hidden;
+}
+.icon-message-output-x{
+    visibility: visible;
+    position: fixed;
+    width: 60px;
+    right: 20px;
+    bottom: 50px;
+    transition: 2s;
+}
+.message-small{
+    transform: scale(0.3);
+    transform: 1s;
+}

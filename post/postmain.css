@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 1920px;
+    background: black;
+}
+.left{
+    padding-top: 80px;
+    padding-left: 100px;
+}
+.img-with{
+    width: 90%;
+}
+.row{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+}
+.column-right{
+    background: white;
+    height: 1080px;
+}
+.img-icon-x{
+    width: 20px;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.img-icon-avt{
+    width: 45px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+.img-post{
+    width: 50px;
+    margin-top: 28px;
+    margin-right: 10px;
+    margin: 28px 10px 0 60px;
+}
+h4{
+    margin-bottom: 7px;
+}
+.post-stt{
+    display: inline-flex;
+    align-items: center;
+}
+.post-stt div span{
+    opacity: 80%;
+}
+.conten{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.stt-left{
+    display: flex;
+}
+.stt-icon{
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.status-icon{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.status-icon button{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.status-icon button i a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.avatar-cmt{
+    width: 35px;
+}
+.cmt{
+    margin-left: 20px;
+    display: flex;
+}
+.comment{
+    margin-bottom: 20px;
+}
+.comment-post{
+    margin-left: 10px;
+    margin-top: 1px;
+    background: rgb(240, 240, 240);
+    padding: 3px 12px;
+    border-radius: 20px;
+}
+.comment-post h4{
+    margin-top: 4px;
+}
+.comment-post p{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
