@@ -15,7 +15,7 @@ body{
     width: 100%;
     visibility: hidden;
     opacity: 0%;
-    animation: display 4.5s 1;
+    animation: display 4.5s;
 }
 .container-1 span{
     text-transform: uppercase;
